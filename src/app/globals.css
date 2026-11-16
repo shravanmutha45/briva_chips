@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-yellow: #f6c31c;
+  --color-yellow-soft: #fbe08a;
+  --color-yellow-tint: #fff7d6;
+  --color-grey: #f5f5f5;
+  --color-border: #eaeaea;
+  --color-charcoal: #1f1f1f;
+  --color-muted: #6b6b6b;
+
+  --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 32px;
+  --radius-frame: 36px;
+
+  --shadow-low: 0 4px 20px rgba(31, 31, 31, 0.03), 0 1px 4px rgba(31, 31, 31, 0.02);
+  --shadow-high: 0 24px 60px rgba(31, 31, 31, 0.08), 0 8px 24px rgba(31, 31, 31, 0.04);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+body {
+  background: var(--color-yellow);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+@utility container-x {
+  @apply mx-auto w-full max-w-[1280px] px-5 md:px-12;
+}
+@utility pill-label {
+  @apply inline-flex items-center rounded-full bg-yellow-tint px-4 py-1.5 text-xs font-semibold tracking-wide text-charcoal uppercase;
+}
+@utility section-heading {
+  @apply text-[28px] leading-[36px] font-semibold md:text-[40px] md:leading-[48px];
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-semibold transition duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-dark {
+  @apply btn bg-charcoal text-white hover:bg-black;
+}
+@utility btn-yellow {
+  @apply btn bg-yellow text-charcoal hover:brightness-95;
+}
+@utility btn-outline {
+  @apply btn border border-border bg-white text-charcoal hover:border-charcoal;
+}
+@utility input {
+  @apply w-full rounded-full border border-transparent bg-grey px-5 py-3.5 text-[15px] outline-none transition placeholder:text-muted focus:border-charcoal focus:bg-white aria-invalid:border-red-500;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-charcoal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

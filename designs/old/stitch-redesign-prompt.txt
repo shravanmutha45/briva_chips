@@ -1,0 +1,9 @@
+Restyle this whole page to be MINIMALIST, CLEAN and PREMIUM, keeping the same taglines and content.
+
+Colours: only sunny yellow #F6C31C and white, with very light grey #F5F5F5 cards and charcoal #1F1F1F for text and dark buttons. Remove all green and red, thick black outlines, hard offset shadows, tilted stickers and doodles. Use a rounded geometric sans (Quicksand) in sentence case, generous white space, soft 24-32px corners and soft subtle shadows.
+
+HERO: the page sits on a yellow outer background as one big white rounded card. Floating white pill nav bar at the top: BRIVA wordmark on the left, small links in the centre (The Chips, Why Briva, How it's made, FAQs), outlined pill "Track order" and yellow pill "Order now" on the right. Below it a big yellow hero panel with a soft sweeping curved bottom edge and faint pale-yellow arc shapes behind. Left: small "Real Fruit. Elevated.", headline "This is not a chip.", sub copy "Naturally ripe Kerala jackfruit, vacuum-fried into a seriously crunchy snack.", charcoal pill "Buy now – ₹150". Right: large clean cutout of the BRIVA pouch with a few golden chips, overlapping the curve onto the white area.
+
+Under the hero: two light-grey rounded cards side by side, "Less oil. More texture." and "100% real fruit", each with a small image, two lines of text and an outlined pill "Learn more".
+
+Keep the rest of the sections (buy box, benefits, how it's made, reviews, FAQ, final call to action) in this calm yellow / white / charcoal style. Make the benefits a "What's inside" diagram: the pouch centred with thin label lines pointing to each benefit. End with a charcoal footer.

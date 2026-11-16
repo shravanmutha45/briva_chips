@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BRIVA | Vacuum Fried Jackfruit Chips</title>
+<!-- Google Fonts: Anton & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS via CDN with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config verbatim matching Design Tokens -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary-fixed-variant": "#594400",
+            "on-secondary-fixed-variant": "#18512c",
+            "surface-container-low": "#fcf3dc",
+            "outline-variant": "#d2c5ac",
+            "tertiary-container": "#ffb9ab",
+            "tertiary-fixed": "#ffdad3",
+            "primary-container": "#f6c31c",
+            "surface-variant": "#ebe2cc",
+            "tertiary": "#b6250e",
+            "error": "#ba1a1a",
+            "outline": "#807660",
+            "secondary-container": "#b2eebc",
+            "on-secondary-container": "#376e46",
+            "primary-fixed-dim": "#f3c017",
+            "inverse-primary": "#f3c017",
+            "surface-container-highest": "#ebe2cc",
+            "secondary": "#326942",
+            "background": "#fff9ee",
+            "on-tertiary": "#ffffff",
+            "on-primary": "#ffffff",
+            "on-tertiary-container": "#a71a04",
+            "on-primary-container": "#695100",
+            "on-error": "#ffffff",
+            "inverse-on-surface": "#f9f0d9",
+            "secondary-fixed": "#b5f1bf",
+            "on-tertiary-fixed-variant": "#8f1100",
+            "surface-tint": "#755b00",
+            "tertiary-fixed-dim": "#ffb4a6",
+            "on-secondary-fixed": "#00210c",
+            "surface-container-high": "#f0e8d1",
+            "secondary-fixed-dim": "#99d4a4",
+            "surface": "#fff9ee",
+            "error-container": "#ffdad6",
+            "on-surface-variant": "#4e4633",
+            "primary-fixed": "#ffdf91",
+            "on-secondary": "#ffffff",
+            "primary": "#755b00",
+            "on-background": "#1f1b0e",
+            "inverse-surface": "#343021",
+            "on-surface": "#1f1b0e",
+            "surface-dim": "#e2dac3",
+            "on-primary-fixed": "#241a00",
+            "on-tertiary-fixed": "#3f0300",
+            "on-error-container": "#93000a",
+            "surface-container": "#f6edd7",
+            "surface-bright": "#fff9ee",
+            "surface-container-lowest": "#ffffff"
+          },
+          "borderRadius": {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-sm": "0.5rem",
+            "margin-lg": "4rem",
+            "space-lg": "1.5rem",
+            "margin": "1rem",
+            "gutter": "1rem",
+            "space-md": "1rem",
+            "space-xl": "2.5rem",
+            "gutter-lg": "2rem",
+            "gutter-md": "1.5rem",
+            "space-xs": "0.25rem",
+            "margin-md": "2rem"
+          },
+          "fontFamily": {
+            "headline-lg": ["Anton", "sans-serif"],
+            "label-md": ["Plus Jakarta Sans", "sans-serif"],
+            "title-md": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-xl": ["Anton", "sans-serif"],
+            "title-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-md": ["Anton", "sans-serif"],
+            "headline-xl-mobile": ["Anton", "sans-serif"],
+            "label-sticker": ["Anton", "sans-serif"],
+            "body-md": ["Plus Jakarta Sans", "sans-serif"],
+            "display-hero": ["Anton", "sans-serif"],
+            "display-hero-mobile": ["Anton", "sans-serif"],
+            "label-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "body-lg": ["Plus Jakarta Sans", "sans-serif"]
+          },
+          "fontSize": {
+            "headline-lg": ["32px", { "lineHeight": "36px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700" }],
+            "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }],
+            "headline-xl": ["48px", { "lineHeight": "52px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "title-lg": ["20px", { "lineHeight": "26px", "fontWeight": "700" }],
+            "headline-md": ["24px", { "lineHeight": "28px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "headline-xl-mobile": ["32px", { "lineHeight": "36px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "label-sticker": ["14px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "400" }],
+            "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "display-hero": ["72px", { "lineHeight": "72px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "display-hero-mobile": ["44px", { "lineHeight": "46px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "700" }],
+            "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "500" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-outlined[data-weight="fill"] {
+      font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: flex;
+      width: 200%;
+      animation: marquee 22s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+    /* Neo-brutalist tactile shadows */
+    .shadow-brutal-green {
+      box-shadow: 4px 4px 0px #1f1b0e;
+    }
+    .shadow-brutal-yellow {
+      box-shadow: 3px 3px 0px #f6c31c;
+    }
+    .shadow-brutal-red {
+      box-shadow: 4px 4px 0px #b6250e;
+    }
+    .shadow-brutal-sm {
+      box-shadow: 2px 2px 0px #1f1b0e;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased selection:bg-primary-container selection:text-secondary">
+<!-- 1. TOP ANNOUNCEMENT TICKER -->
+<div class="bg-tertiary text-on-tertiary overflow-hidden border-b-2 border-on-surface py-2 select-none z-50 relative">
+<div class="animate-marquee whitespace-nowrap font-label-sticker text-label-sticker uppercase tracking-wider flex items-center gap-space-lg">
+<span>Fast delivery across India ✦ Free shipping on orders above ₹300 ✦ 100% real jackfruit ✦ Vacuum fried with 70% less oil ✦ 100% Vegan &amp; Gluten Free</span>
+<span>✦ Fast delivery across India ✦ Free shipping on orders above ₹300 ✦ 100% real jackfruit ✦ Vacuum fried with 70% less oil ✦ 100% Vegan &amp; Gluten Free</span>
+<span>✦ Fast delivery across India ✦ Free shipping on orders above ₹300 ✦ 100% real jackfruit ✦ Vacuum fried with 70% less oil ✦ 100% Vegan &amp; Gluten Free</span>
+<span>✦ Fast delivery across India ✦ Free shipping on orders above ₹300 ✦ 100% real jackfruit ✦ Vacuum fried with 70% less oil ✦ 100% Vegan &amp; Gluten Free</span>
+</div>
+</div>
+<!-- 2. TOP NAVBAR (Shared Component implementation) -->
+<header class="bg-surface dark:bg-inverse-surface border-b-2 border-outline-variant dark:border-outline shadow-[0_4px_0_0_#1f1b0e] dark:shadow-[0_4px_0_0_#000000] docked full-width top-0 sticky z-50">
+<div class="w-full max-w-7xl mx-auto flex items-center justify-between px-margin md:px-margin-md py-space-sm">
+<!-- Logo Anchor -->
+<a class="flex items-center gap-2 group" href="#hero">
+<span class="font-headline-lg text-headline-lg text-secondary dark:text-secondary-fixed tracking-wider uppercase transition-transform group-hover:scale-105">
+          BRIVA
+        </span>
+<span class="bg-secondary text-on-secondary px-2 py-0.5 rounded-full text-xs font-label-md uppercase tracking-wider -rotate-3">
+          100% Fruit
+        </span>
+</a>
+<!-- Desktop Nav Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-secondary dark:text-secondary-fixed font-title-md text-title-md border-b-2 border-secondary dark:border-secondary-fixed pb-1 hover:text-secondary transition-colors duration-150 active:translate-x-0.5 active:translate-y-0.5" href="#buy-box">
+          Shop Chips
+        </a>
+<a class="text-on-surface-variant dark:text-surface-variant font-label-lg text-label-lg hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150 active:translate-x-0.5 active:translate-y-0.5" href="#why-briva">
+          Why Jackfruit
+        </a>
+<a class="text-on-surface-variant dark:text-surface-variant font-label-lg text-label-lg hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150 active:translate-x-0.5 active:translate-y-0.5" href="#how-its-made">
+          How It's Made
+        </a>
+<a class="text-on-surface-variant dark:text-surface-variant font-label-lg text-label-lg hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150 active:translate-x-0.5 active:translate-y-0.5" href="#reviews">
+          Reviews
+        </a>
+<a class="text-on-surface-variant dark:text-surface-variant font-label-lg text-label-lg hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150 active:translate-x-0.5 active:translate-y-0.5" href="#faq">
+          FAQ
+        </a>
+</nav>
+<!-- Trailing Action -->
+<div class="flex items-center gap-3">
+<button aria-label="Cart" class="relative p-2 rounded-full border-2 border-on-surface bg-surface-container-lowest hover:bg-surface-container active:scale-95 transition-all text-on-surface" id="nav-cart-btn">
+<span class="material-symbols-outlined text-2xl" data-icon="shopping_bag">shopping_bag</span>
+<span class="absolute -top-1.5 -right-1.5 bg-tertiary text-on-tertiary font-label-md text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold border border-on-surface" id="cart-counter">1</span>
+</button>
+<a class="hidden sm:inline-flex items-center gap-1.5 bg-secondary text-on-secondary font-label-lg text-label-lg px-5 py-2.5 rounded-full border-2 border-on-surface shadow-brutal-sm hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 transition-transform duration-100" href="#buy-box">
+<span>Grab a Bag</span>
+<span class="material-symbols-outlined text-lg" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- 3. HERO SECTION (Dominant Sunny Golden Yellow) -->
+<section class="relative bg-primary-container border-b-4 border-on-surface overflow-hidden py-12 md:py-20" id="hero">
+<!-- Subtle Kerala Palm Watermark Outline in background -->
+<div class="absolute right-0 top-0 w-96 h-96 opacity-10 pointer-events-none select-none text-secondary">
+<span class="material-symbols-outlined text-[320px] leading-none" data-icon="eco">eco</span>
+</div>
+<div class="max-w-7xl mx-auto px-margin md:px-margin-lg grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Left Column: Typography & CTAs -->
+<div class="lg:col-span-7 flex flex-col gap-6 z-10">
+<!-- Floating Pill Tag -->
+<div class="inline-flex items-center gap-2 self-start bg-surface-container-lowest border-2 border-on-surface rounded-full px-4 py-1.5 shadow-brutal-sm">
+<span class="material-symbols-outlined text-secondary text-base" data-icon="verified" data-weight="fill">verified</span>
+<span class="font-label-lg text-xs uppercase tracking-wider text-secondary">Real Kerala Jackfruit · Vacuum Fried</span>
+</div>
+<h1 class="font-display-hero md:text-display-hero text-display-hero-mobile uppercase text-secondary tracking-normal leading-[0.95]">
+          THIS IS <span class="text-tertiary underline decoration-wavy decoration-3 underline-offset-8">NOT</span> A POTATO CHIP.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface max-w-xl font-medium">
+          Naturally ripe Kerala jackfruit, vacuum-fried into a seriously crunchy snack. Naturally sweet. Seriously crunchy. Completely different.
+        </p>
+<!-- CTA Cluster -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-3 bg-secondary text-on-secondary font-headline-md text-headline-md px-8 py-4 rounded-full border-2 border-on-surface shadow-brutal-green hover:scale-[1.02] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all" href="#buy-box">
+<span>BUY NOW – ₹150</span>
+<span class="material-symbols-outlined text-2xl" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 bg-surface text-secondary font-title-md text-title-md px-6 py-4 rounded-full border-2 border-on-surface shadow-brutal-sm hover:bg-surface-container active:translate-x-0.5 active:translate-y-0.5 transition-all" href="#why-briva">
+<span>Why it's different</span>
+<span class="material-symbols-outlined text-lg" data-icon="help_outline">help_outline</span>
+</a>
+</div>
+<!-- Trust Badge Row -->
+<div class="flex flex-wrap items-center gap-6 pt-4 border-t-2 border-on-surface/20">
+<div class="flex items-center gap-2">
+<div class="flex text-tertiary">
+<span class="material-symbols-outlined text-xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-xl" data-icon="star" data-weight="fill">star</span>
+</div>
+<span class="font-title-md text-sm font-bold text-on-surface">4.9/5 from 1,200+ early crunchers</span>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-highest px-3 py-1 rounded-full border border-on-surface/40">
+<span class="material-symbols-outlined text-secondary text-sm" data-icon="local_florist">local_florist</span>
+<span class="font-label-md text-xs uppercase tracking-wider text-on-surface">Direct from Kerala farms</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Product Showcase -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<!-- Sticker Callout: INTRO PRICE -->
+<div class="absolute -top-4 -right-2 md:top-2 md:right-4 z-20 bg-tertiary text-on-tertiary font-label-sticker text-base px-4 py-2 rounded-full border-2 border-on-surface shadow-brutal-sm rotate-6 select-none animate-pulse">
+          38% OFF · INTRO PRICE
+        </div>
+<!-- Hand-drawn SVG doodle annotation -->
+<div class="absolute -bottom-6 -left-4 z-20 bg-surface-container-lowest text-secondary font-label-sticker text-sm px-4 py-2 rounded-xl border-2 border-on-surface shadow-brutal-sm -rotate-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container" data-icon="sparkles" data-weight="fill">arrow_back_ios_new</span>
+<span>Crispy, Light &amp; Naturally Sweet!</span>
+</div>
+<!-- Pack Hero Image Frame -->
+<div class="relative w-full max-w-md bg-surface-container-lowest p-3 rounded-2xl border-4 border-on-surface shadow-brutal-green rotate-1 hover:rotate-0 transition-transform duration-300">
+<img alt="BRIVA Vacuum Fried Jackfruit Chips pack with crispy yellow chips pouring into a rustic bowl" class="w-full h-auto object-cover rounded-xl aspect-square" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOdsRsQwDZYStFxWrQxGYPbtt1tHdNIFyuJobKjQoC13xV13upp6BZgKDs-bgyFweTvlWLOQ_VCjxYYCuRDzEhB0HoY5Nxweq8waJ3_wK88noh9UkDzQ2T4GSba6tx4i9-aYUBzs4j4C-YF_bc_57IJH7ESrxvsBzHQTVrDT-xlQh2kw4dRuzyENMc78_8DEarzLiO2yLTdHK93-pQxWFr5T3V-kRLab3loYu5TOs9ibsL7gA-MAD5aNz7yRJEtlxYKPE3RrL-m3Hx"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. BUY BOX SECTION (Conversion Engine on Warm Cream #FFF6DF) -->
+<section class="py-16 md:py-24 bg-surface border-b-4 border-on-surface" id="buy-box">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-lg">
+<!-- Section Tag -->
+<div class="flex items-center gap-2 mb-8">
+<span class="material-symbols-outlined text-tertiary" data-icon="shopping_basket">shopping_basket</span>
+<span class="font-label-sticker text-tertiary uppercase text-sm tracking-widest">ORDER DIRECT FRESH FROM HARVEST</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Multi-image Gallery (Col 6) -->
+<div class="lg:col-span-6 flex flex-col gap-4">
+<!-- Main Selected Preview -->
+<div class="relative bg-surface-container-lowest border-4 border-on-surface rounded-2xl overflow-hidden shadow-brutal-green aspect-square flex items-center justify-center">
+<img alt="BRIVA Jackfruit Chips main pack view" class="w-full h-full object-cover" id="main-product-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOdsRsQwDZYStFxWrQxGYPbtt1tHdNIFyuJobKjQoC13xV13upp6BZgKDs-bgyFweTvlWLOQ_VCjxYYCuRDzEhB0HoY5Nxweq8waJ3_wK88noh9UkDzQ2T4GSba6tx4i9-aYUBzs4j4C-YF_bc_57IJH7ESrxvsBzHQTVrDT-xlQh2kw4dRuzyENMc78_8DEarzLiO2yLTdHK93-pQxWFr5T3V-kRLab3loYu5TOs9ibsL7gA-MAD5aNz7yRJEtlxYKPE3RrL-m3Hx"/>
+<span class="absolute top-4 left-4 bg-primary-container text-on-surface font-label-sticker text-xs uppercase px-3 py-1 rounded-full border-2 border-on-surface shadow-brutal-sm -rotate-2">
+              BATCH #24 FRESH DISPATCH
+            </span>
+</div>
+<!-- Clickable Thumbnails -->
+<div class="grid grid-cols-4 gap-3">
+<button class="thumbnail-btn border-2 border-secondary rounded-xl overflow-hidden aspect-square shadow-brutal-sm bg-surface-container-lowest focus:outline-none ring-2 ring-secondary" onclick="changeGalleryImage('https://lh3.googleusercontent.com/aida-public/AB6AXuAOdsRsQwDZYStFxWrQxGYPbtt1tHdNIFyuJobKjQoC13xV13upp6BZgKDs-bgyFweTvlWLOQ_VCjxYYCuRDzEhB0HoY5Nxweq8waJ3_wK88noh9UkDzQ2T4GSba6tx4i9-aYUBzs4j4C-YF_bc_57IJH7ESrxvsBzHQTVrDT-xlQh2kw4dRuzyENMc78_8DEarzLiO2yLTdHK93-pQxWFr5T3V-kRLab3loYu5TOs9ibsL7gA-MAD5aNz7yRJEtlxYKPE3RrL-m3Hx', this)">
+<img alt="Hero Pack" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOdsRsQwDZYStFxWrQxGYPbtt1tHdNIFyuJobKjQoC13xV13upp6BZgKDs-bgyFweTvlWLOQ_VCjxYYCuRDzEhB0HoY5Nxweq8waJ3_wK88noh9UkDzQ2T4GSba6tx4i9-aYUBzs4j4C-YF_bc_57IJH7ESrxvsBzHQTVrDT-xlQh2kw4dRuzyENMc78_8DEarzLiO2yLTdHK93-pQxWFr5T3V-kRLab3loYu5TOs9ibsL7gA-MAD5aNz7yRJEtlxYKPE3RrL-m3Hx"/>
+</button>
+<button class="thumbnail-btn border-2 border-outline-variant hover:border-secondary rounded-xl overflow-hidden aspect-square bg-surface-container-lowest focus:outline-none" onclick="changeGalleryImage('https://lh3.googleusercontent.com/aida-public/AB6AXuBjBsgjNfDFCuOUrJdR7El0wNj76Bz-YfLl5vS58-GXNz5JFxZ6NbJc3YtzvMXvrreMIY4nOaukKDsytj4Gh2yF7bA-fG6fMljr2OppKo4d0oJQRgIkTOGQu9p8wh1Y62W_oC-bmq3s5jIAkMybKc0JDjF3yjeJDWznFzfyVV4st6F1lEQlTEaajVse9zt27Xn3TK9p2gEEYB1dHU5IIY5aLD5c8LbzTSXfKIH1VQoLtcIYsJJ8_sBi9IhtmldsslRXtD9HIw2DlsIR', this)">
+<img alt="Vacuum fried porous texture" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjBsgjNfDFCuOUrJdR7El0wNj76Bz-YfLl5vS58-GXNz5JFxZ6NbJc3YtzvMXvrreMIY4nOaukKDsytj4Gh2yF7bA-fG6fMljr2OppKo4d0oJQRgIkTOGQu9p8wh1Y62W_oC-bmq3s5jIAkMybKc0JDjF3yjeJDWznFzfyVV4st6F1lEQlTEaajVse9zt27Xn3TK9p2gEEYB1dHU5IIY5aLD5c8LbzTSXfKIH1VQoLtcIYsJJ8_sBi9IhtmldsslRXtD9HIw2DlsIR"/>
+</button>
+<button class="thumbnail-btn border-2 border-outline-variant hover:border-secondary rounded-xl overflow-hidden aspect-square bg-surface-container-lowest focus:outline-none" onclick="changeGalleryImage('https://lh3.googleusercontent.com/aida-public/AB6AXuDYWmVMtAx8nmbMlwbKCLBvnOffgF2H4qTm7pQwOAM2p9x-5YQIgV02wnou7SfNEL_IjI1xDmSCIh2yZICfccNIcJqRacLZnxjw_xy6Z1QvI3vjnZo_aiXAa9emNE3lRcYphmsqgU8kUixWttRlwaJIBDF8R7iV8u18xsrXAbpeZ-18XchDY6mxyaZztzgJSWle_Qm077oWOvVxSQPGJWyfIrrgbPrBAvoCpHTnLrjzU2WeQqOJ20_OLLnJqmIYMU-KJr2HLRBoDyu1', this)">
+<img alt="Fresh Kerala Harvest" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYWmVMtAx8nmbMlwbKCLBvnOffgF2H4qTm7pQwOAM2p9x-5YQIgV02wnou7SfNEL_IjI1xDmSCIh2yZICfccNIcJqRacLZnxjw_xy6Z1QvI3vjnZo_aiXAa9emNE3lRcYphmsqgU8kUixWttRlwaJIBDF8R7iV8u18xsrXAbpeZ-18XchDY6mxyaZztzgJSWle_Qm077oWOvVxSQPGJWyfIrrgbPrBAvoCpHTnLrjzU2WeQqOJ20_OLLnJqmIYMU-KJr2HLRBoDyu1"/>
+</button>
+<button class="thumbnail-btn border-2 border-outline-variant hover:border-secondary rounded-xl overflow-hidden aspect-square bg-surface-container-lowest focus:outline-none" onclick="changeGalleryImage('https://lh3.googleusercontent.com/aida-public/AB6AXuBqGbOFHPt__zk_BEyED4bshhtYcIpUdXyVy3C6OB_vaILCj2UjorWFTfgMH7z28zmOszgThnv9XOHorpumLRGJaGKN5hk_SNvtABMVasIGQaX4gmiG0VOy5_8ixoP_msBqgRTbUwuph7GCvsR0CT0jQx4cVEQkghU_1caQbKOERvuTAidDJFSBCv3q_fUetPyeyUDzHHeOygPZK7EE5NFBAde64HgI0X3XVQ-siznLlW4hBs474eZHkdFUmdATP_H4z_yn21Xf2iPF', this)">
+<img alt="Late night snacking friends" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqGbOFHPt__zk_BEyED4bshhtYcIpUdXyVy3C6OB_vaILCj2UjorWFTfgMH7z28zmOszgThnv9XOHorpumLRGJaGKN5hk_SNvtABMVasIGQaX4gmiG0VOy5_8ixoP_msBqgRTbUwuph7GCvsR0CT0jQx4cVEQkghU_1caQbKOERvuTAidDJFSBCv3q_fUetPyeyUDzHHeOygPZK7EE5NFBAde64HgI0X3XVQ-siznLlW4hBs474eZHkdFUmdATP_H4z_yn21Xf2iPF"/>
+</button>
+</div>
+</div>
+<!-- Product Controls & Conversion Block (Col 6) -->
+<div class="lg:col-span-6 flex flex-col gap-6">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="text-tertiary flex">
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+</span>
+<span class="font-label-md text-xs text-on-surface-variant font-bold">4.9 (1,248 Verified Buyers)</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase tracking-tight">
+              Vacuum Fried Jackfruit Chips
+            </h2>
+<p class="font-title-md text-secondary font-bold mt-1">
+              50 g · Vacuum fried · Small batch · 100% Vegan
+            </p>
+</div>
+<!-- Price Block -->
+<div class="bg-surface-container-low p-4 rounded-xl border-2 border-on-surface flex items-baseline gap-4 shadow-brutal-sm">
+<span class="font-headline-xl text-headline-xl text-tertiary" id="price-display">₹150</span>
+<span class="font-title-lg text-title-lg line-through text-outline" id="mrp-display">₹240</span>
+<span class="bg-tertiary text-on-tertiary font-label-sticker text-xs px-2.5 py-1 rounded-full border border-on-surface rotate-2">
+              38% OFF
+            </span>
+<span class="text-xs font-body-md text-on-surface-variant ml-auto font-medium">Inclusive of all taxes</span>
+</div>
+<!-- Bundle Pack Cards -->
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Select Crunch Pack:</span>
+<span class="text-xs font-label-md text-secondary uppercase font-extrabold">✦ Fresh harvest batch</span>
+</div>
+<!-- Single Pack -->
+<label class="bundle-card relative flex items-center justify-between p-4 rounded-2xl border-2 border-on-surface bg-surface-container-lowest cursor-pointer transition-all hover:bg-surface-container-low has-[:checked]:border-secondary has-[:checked]:ring-2 has-[:checked]:ring-secondary has-[:checked]:bg-surface-container-low">
+<input checked="" class="accent-secondary h-5 w-5" name="bundle" onchange="updateBundle(1, 150, 240)" type="radio" value="1"/>
+<div class="flex-1 ml-4">
+<span class="font-title-lg text-title-lg text-on-surface block">1 Pack — ₹150</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Trial Crunch · 50g resealable bag</span>
+</div>
+<span class="font-title-md font-bold text-on-surface">₹150</span>
+</label>
+<!-- Pack of 3 (Most Popular) -->
+<label class="bundle-card relative flex items-center justify-between p-4 rounded-2xl border-2 border-secondary bg-surface-container-lowest cursor-pointer transition-all hover:bg-surface-container-low has-[:checked]:border-secondary has-[:checked]:ring-2 has-[:checked]:ring-secondary has-[:checked]:bg-surface-container-low shadow-brutal-sm">
+<div class="absolute -top-3 right-6 bg-tertiary text-on-tertiary font-label-sticker text-xs uppercase px-3 py-0.5 rounded-full border border-on-surface -rotate-2">
+                POPULAR · SAVE ₹30
+              </div>
+<input class="accent-secondary h-5 w-5" name="bundle" onchange="updateBundle(3, 420, 720)" type="radio" value="3"/>
+<div class="flex-1 ml-4">
+<span class="font-title-lg text-title-lg text-on-surface block">Pack of 3 — ₹420</span>
+<span class="font-body-md text-body-md text-secondary font-semibold">Weekend stash · ₹140 per pack</span>
+</div>
+<div class="text-right">
+<span class="font-title-md font-bold text-on-surface">₹420</span>
+<span class="text-xs line-through text-outline block">₹450</span>
+</div>
+</label>
+<!-- Pack of 6 (Best Value) -->
+<label class="bundle-card relative flex items-center justify-between p-4 rounded-2xl border-2 border-on-surface bg-surface-container-lowest cursor-pointer transition-all hover:bg-surface-container-low has-[:checked]:border-secondary has-[:checked]:ring-2 has-[:checked]:ring-secondary has-[:checked]:bg-surface-container-low">
+<div class="absolute -top-3 right-6 bg-primary-container text-on-surface font-label-sticker text-xs uppercase px-3 py-0.5 rounded-full border border-on-surface rotate-2">
+                BEST VALUE · FREE SHIPPING
+              </div>
+<input class="accent-secondary h-5 w-5" name="bundle" onchange="updateBundle(6, 780, 1440)" type="radio" value="6"/>
+<div class="flex-1 ml-4">
+<span class="font-title-lg text-title-lg text-on-surface block">Pack of 6 — ₹780</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Family crunch box · ₹130 per pack (Save ₹120)</span>
+</div>
+<div class="text-right">
+<span class="font-title-md font-bold text-on-surface">₹780</span>
+<span class="text-xs line-through text-outline block">₹900</span>
+</div>
+</label>
+</div>
+<!-- Quantity Stepper & Buy Buttons -->
+<div class="flex flex-col sm:flex-row gap-4 items-stretch">
+<!-- Stepper -->
+<div class="flex items-center justify-between bg-surface-container-lowest border-2 border-on-surface rounded-full px-4 py-2 w-full sm:w-36 shadow-brutal-sm">
+<button aria-label="Decrease quantity" class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg hover:bg-surface-container text-on-surface active:scale-90" onclick="adjustQty(-1)">−</button>
+<span class="font-title-lg text-title-lg font-bold" id="qty-val">1</span>
+<button aria-label="Increase quantity" class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg hover:bg-surface-container text-on-surface active:scale-90" onclick="adjustQty(1)">+</button>
+</div>
+<!-- Add to Cart -->
+<button class="flex-1 bg-secondary text-on-secondary font-title-lg text-title-lg py-4 px-6 rounded-full border-2 border-on-surface shadow-brutal-green hover:scale-[1.01] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2" onclick="addToCartTrigger()">
+<span class="material-symbols-outlined text-xl" data-icon="add_shopping_cart">add_shopping_cart</span>
+<span>Add to Cart</span>
+</button>
+<!-- Buy Now -->
+<button class="flex-1 bg-tertiary text-on-tertiary font-title-lg text-title-lg py-4 px-6 rounded-full border-2 border-on-surface shadow-brutal-red hover:scale-[1.01] active:translate-x-1 active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2" onclick="directCheckoutTrigger()">
+<span class="material-symbols-outlined text-xl" data-icon="bolt">bolt</span>
+<span>Buy Now</span>
+</button>
+</div>
+<!-- Free Shipping Progress -->
+<div class="bg-surface-container-lowest p-4 rounded-xl border-2 border-on-surface shadow-brutal-sm">
+<div class="flex justify-between text-xs font-title-md mb-2">
+<span class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-base" data-icon="local_shipping">local_shipping</span>
+<span id="shipping-prompt">Add ₹150 more for <strong>FREE shipping</strong></span>
+</span>
+<span class="font-bold text-on-surface" id="shipping-percent">50% unlocked</span>
+</div>
+<div class="w-full bg-surface-container-high h-3 rounded-full overflow-hidden border border-on-surface">
+<div class="bg-primary-container h-full rounded-full transition-all duration-500" id="shipping-bar" style="width: 50%"></div>
+</div>
+</div>
+<!-- Pincode Delivery Checker -->
+<div class="bg-surface-container-low p-4 rounded-xl border-2 border-on-surface">
+<label class="block font-label-md text-xs uppercase text-on-surface-variant font-bold mb-2" for="pincode-input">Check Express Delivery in Your City</label>
+<div class="flex gap-2">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-lg" data-icon="pin_drop">pin_drop</span>
+<input class="w-full pl-10 pr-3 py-2.5 rounded-full border-2 border-on-surface bg-surface-container-lowest font-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary text-sm" id="pincode-input" maxlength="6" placeholder="Enter 6-digit Pincode (e.g. 560001)" type="text"/>
+</div>
+<button class="bg-secondary text-on-secondary px-6 py-2.5 rounded-full font-label-lg text-label-lg border-2 border-on-surface hover:bg-on-secondary-container active:scale-95 transition-all" onclick="checkPincode()">
+                CHECK
+              </button>
+</div>
+<div class="mt-2 text-xs font-title-md text-secondary flex items-center gap-1" id="pincode-result">
+<span class="material-symbols-outlined text-sm text-secondary" data-icon="bolt">bolt</span>
+<span>⚡ Fast delivery: Ships within 24h · Reaches in 2-4 business days</span>
+</div>
+</div>
+<!-- Trust Badges & Safe Payment Row -->
+<div class="grid grid-cols-3 gap-2 pt-2 border-t-2 border-outline-variant text-center">
+<div class="p-2 bg-surface-container-lowest rounded-lg border border-on-surface/20 flex flex-col items-center">
+<span class="material-symbols-outlined text-secondary text-xl mb-1" data-icon="local_shipping">local_shipping</span>
+<span class="font-label-md text-[11px] leading-tight">Pan-India Express</span>
+</div>
+<div class="p-2 bg-surface-container-lowest rounded-lg border border-on-surface/20 flex flex-col items-center">
+<span class="material-symbols-outlined text-secondary text-xl mb-1" data-icon="lock">lock</span>
+<span class="font-label-md text-[11px] leading-tight">UPI / Cards / NetBanking</span>
+</div>
+<div class="p-2 bg-surface-container-lowest rounded-lg border border-on-surface/20 flex flex-col items-center">
+<span class="material-symbols-outlined text-secondary text-xl mb-1" data-icon="published_with_changes">published_with_changes</span>
+<span class="font-label-md text-[11px] leading-tight">100% Crunch Guarantee</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. "LESS OIL. MORE TEXTURE." SPLIT COMPARISON PANEL -->
+<section class="py-16 md:py-24 bg-surface-container-low border-b-4 border-on-surface relative">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-lg">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="bg-tertiary text-on-tertiary font-label-sticker text-xs uppercase px-4 py-1 rounded-full border border-on-surface -rotate-1 inline-block mb-3">
+          THE TECHNOLOGY OF TASTE
+        </span>
+<h2 class="font-headline-xl text-headline-xl uppercase text-on-surface leading-tight">
+          LESS OIL. MORE TEXTURE. REAL FRUIT.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant font-medium mt-2">
+          Regular chips are steeped in boiling oil at 180°C. We vacuum-fry Kerala jackfruit at ~80°C. Here is why your palate notices the difference instantly.
+        </p>
+</div>
+<!-- Split Card Graphic -->
+<div class="grid grid-cols-1 md:grid-cols-2 rounded-3xl border-4 border-on-surface overflow-hidden shadow-brutal-green">
+<!-- Left Half: Regular Potato / Banana Chips -->
+<div class="bg-surface-variant p-8 md:p-12 flex flex-col justify-between border-b-4 md:border-b-0 md:border-r-4 border-on-surface">
+<div>
+<div class="inline-block bg-on-surface-variant text-surface px-3 py-1 rounded-full font-label-sticker text-xs uppercase mb-4">
+              Regular Deep Fried Chips
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-6">
+              HEAVY, GREASY &amp; BURNT SUGARS
+            </h3>
+<ul class="space-y-4 font-body-md text-body-md text-on-surface">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-xl flex-shrink-0" data-icon="close">close</span>
+<span><strong>High Oil Saturation (~35% oil weight):</strong> Absorbs thick palm oil at high temperature.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-xl flex-shrink-0" data-icon="close">close</span>
+<span><strong>Destroys Natural Fiber:</strong> Intense scorching heat degrades fruit micronutrients.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-xl flex-shrink-0" data-icon="close">close</span>
+<span><strong>Oily Finger Slime &amp; Post-Snack Guilt:</strong> Leaves persistent heavy coating in mouth.</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-6 border-t-2 border-outline-variant">
+<span class="font-label-sticker text-tertiary text-base uppercase">Outcome: Sluggish digestion &amp; oil burps.</span>
+</div>
+</div>
+<!-- Right Half: BRIVA Vacuum Fried Jackfruit -->
+<div class="bg-primary-container p-8 md:p-12 flex flex-col justify-between">
+<div>
+<div class="inline-block bg-secondary text-on-secondary px-3 py-1 rounded-full font-label-sticker text-xs uppercase mb-4">
+              BRIVA Vacuum Fried Jackfruit
+            </div>
+<h3 class="font-headline-md text-headline-md text-secondary mb-6">
+              70% LESS OIL. POROUS &amp; CRISPY CRUNCH.
+            </h3>
+<ul class="space-y-4 font-body-md text-body-md text-on-surface font-semibold">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl flex-shrink-0" data-icon="check_circle" data-weight="fill">check_circle</span>
+<span><strong>Sub-Atmospheric Cooking (~80°C):</strong> Water vaporizes at lower boiling points without scorching.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl flex-shrink-0" data-icon="check_circle" data-weight="fill">check_circle</span>
+<span><strong>70% Less Oil Absorption:</strong> Centrifugally de-oiled so crisp air fills every honeyed fiber pocket.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-xl flex-fill" data-icon="check_circle" data-weight="fill">check_circle</span>
+<span><strong>Naturally Sweet &amp; Guilt-Free:</strong> Retains genuine honey-tropical fragrance and vivid golden color.</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-6 border-t-2 border-on-surface">
+<span class="font-label-sticker text-secondary text-base uppercase">Outcome: Clean fingers, light belly &amp; pure crunch.</span>
+</div>
+</div>
+</div>
+<!-- Center Highlight Banner with Texture Photo -->
+<div class="mt-12 bg-surface-container-lowest rounded-2xl border-4 border-on-surface p-6 shadow-brutal-sm flex flex-col md:flex-row items-center gap-6">
+<div class="w-full md:w-48 h-32 rounded-xl overflow-hidden border-2 border-on-surface flex-shrink-0">
+<img alt="Close-up porous texture of vacuum fried jackfruit chips" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjBsgjNfDFCuOUrJdR7El0wNj76Bz-YfLl5vS58-GXNz5JFxZ6NbJc3YtzvMXvrreMIY4nOaukKDsytj4Gh2yF7bA-fG6fMljr2OppKo4d0oJQRgIkTOGQu9p8wh1Y62W_oC-bmq3s5jIAkMybKc0JDjF3yjeJDWznFzfyVV4st6F1lEQlTEaajVse9zt27Xn3TK9p2gEEYB1dHU5IIY5aLD5c8LbzTSXfKIH1VQoLtcIYsJJ8_sBi9IhtmldsslRXtD9HIw2DlsIR"/>
+</div>
+<div class="flex-1">
+<h4 class="font-title-lg text-title-lg text-secondary uppercase">Look at that porous, airy fiber network</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Because vacuum pressure removes moisture gently, each chip preserves the cellular structure of ripe jackfruit carpels. The crunch is airy, shattering cleanly without the greasy density of conventional fried roots.
+          </p>
+</div>
+<a class="bg-secondary text-on-secondary px-6 py-3 rounded-full font-label-lg border-2 border-on-surface shadow-brutal-sm hover:-translate-y-0.5 transition-transform flex-shrink-0" href="#buy-box">
+          Try the Crunch
+        </a>
+</div>
+</div>
+</section>
+<!-- 6. WHY BRIVA (6 BENEFIT CARDS ON WARM CREAM #FFF6DF) -->
+<section class="py-16 md:py-24 bg-surface border-b-4 border-on-surface" id="why-briva">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-lg">
+<div class="text-center max-w-3xl mx-auto mb-14">
+<span class="bg-secondary text-on-secondary font-label-sticker text-xs uppercase px-4 py-1 rounded-full border border-on-surface rotate-1 inline-block mb-3">
+          BETTER THAN POTATO
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-secondary uppercase leading-none">
+          WHY YOU'LL NEVER GO BACK TO POTATO CHIPS
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant font-medium mt-3">
+          Snacking shouldn't require trading off bold satisfaction for your physical well-being.
+        </p>
+</div>
+<!-- 6 Rounded Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl border-2 border-on-surface shadow-brutal-sm hover:-translate-y-1 transition-transform group">
+<div class="w-12 h-12 rounded-xl bg-primary-container border-2 border-on-surface flex items-center justify-center mb-4 text-on-surface group-hover:rotate-6 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="nutrition">nutrition</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Naturally Ripe Kerala Jackfruit</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Sourced ethically from lush smallholder groves in Kerala at peak aroma. Only hand-inspected mature golden pods make it into production.
+          </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl border-2 border-on-surface shadow-brutal-sm hover:-translate-y-1 transition-transform group">
+<div class="w-12 h-12 rounded-xl bg-secondary-container border-2 border-on-surface flex items-center justify-center mb-4 text-secondary group-hover:-rotate-6 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="thermostat">thermostat</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Vacuum-Fried at Low Temperature</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Cooked below 85°C to lock in active fiber, vitamin complexes, and that signature tropical amber hue without charred bitterness.
+          </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl border-2 border-on-surface shadow-brutal-sm hover:-translate-y-1 transition-transform group">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container border-2 border-on-surface flex items-center justify-center mb-4 text-tertiary group-hover:rotate-6 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="oil_barrel">oil_barrel</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Carefully De-Oiled</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Post-vacuum centrifuge spinning strips residual oils away. Zero oily film on your smartphone or keyboard while snacking at your desk.
+          </p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl border-2 border-on-surface shadow-brutal-sm hover:-translate-y-1 transition-transform group">
+<div class="w-12 h-12 rounded-xl bg-primary-container border-2 border-on-surface flex items-center justify-center mb-4 text-on-surface group-hover:-rotate-6 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="no_drinks">no_drinks</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">No Added Sugar or Syrups</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            100% of the sweet notes come organically from ripe jackfruit carpels. No maltodextrin, corn syrup, or sneaky artificial enhancers.
+          </p>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl border-2 border-on-surface shadow-brutal-sm hover:-translate-y-1 transition-transform group">
+<div class="w-12 h-12 rounded-xl bg-secondary-container border-2 border-on-surface flex items-center justify-center mb-4 text-secondary group-hover:rotate-6 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="verified_user">verified_user</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Zero Preservatives &amp; Flavors</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Just real fruit, a pinch of palm olein for the process, and sea salt. Unadulterated honesty on your ingredient statement.
+          </p>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl border-2 border-on-surface shadow-brutal-sm hover:-translate-y-1 transition-transform group">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container border-2 border-on-surface flex items-center justify-center mb-4 text-tertiary group-hover:-rotate-6 transition-transform">
+<span class="material-symbols-outlined text-2xl" data-icon="favorite">favorite</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Zero Trans Fat &amp; Cholesterol Free</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Clean snacking backed by dietary fiber. Safe for everyone from energetic school kids to mindful health enthusiasts.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. HOW IT'S MADE (4 Numbered Steps on Forest Green #1E5631) -->
+<section class="py-16 md:py-24 bg-secondary text-on-secondary border-b-4 border-on-surface relative overflow-hidden" id="how-its-made">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+<div>
+<span class="bg-primary-container text-on-surface font-label-sticker text-xs uppercase px-4 py-1 rounded-full border border-on-surface -rotate-2 inline-block mb-3">
+            ARTISANAL PROCESS
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-primary-container uppercase">
+            FROM KERALA ORCHARDS TO YOUR FINGERTIPS
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-secondary-fixed max-w-md">
+          How we turn the planet's largest tree fruit into the lightest, crunchiest artisanal chip in India.
+        </p>
+</div>
+<!-- 4 Horizontal Process Cards with Dotted Flow Lines -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest text-on-surface p-6 rounded-2xl border-3 border-on-surface shadow-brutal-yellow flex flex-col justify-between relative">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="font-headline-lg text-headline-lg text-tertiary">01</span>
+<span class="material-symbols-outlined text-secondary text-2xl" data-icon="yard">yard</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Pick Ripe Kerala Jackfruit</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Harvested by generational growers in Wayanad and Idukki when the tropical scent indicates peak fructose levels.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant flex items-center gap-2 text-xs font-label-md text-secondary">
+<span class="material-symbols-outlined text-sm" data-icon="check">check</span>
+<span>Ethical Farm Gates</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest text-on-surface p-6 rounded-2xl border-3 border-on-surface shadow-brutal-yellow flex flex-col justify-between relative">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="font-headline-lg text-headline-lg text-tertiary">02</span>
+<span class="material-symbols-outlined text-secondary text-2xl" data-icon="cut">cut</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Precision Slicing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Pods are deseeded and cut along the natural grain to retain length, texture integrity, and uniform cooking crunch.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant flex items-center gap-2 text-xs font-label-md text-secondary">
+<span class="material-symbols-outlined text-sm" data-icon="check">check</span>
+<span>Hand Inspected</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest text-on-surface p-6 rounded-2xl border-3 border-on-surface shadow-brutal-yellow flex flex-col justify-between relative">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="font-headline-lg text-headline-lg text-tertiary">03</span>
+<span class="material-symbols-outlined text-secondary text-2xl" data-icon="air">air</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Vacuum Fry at Low Temp</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Placed under vacuum chambers where water boils off at ~80°C. Zero oil burning, locking in natural honeyed taste.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant flex items-center gap-2 text-xs font-label-md text-secondary">
+<span class="material-symbols-outlined text-sm" data-icon="check">check</span>
+<span>70% Less Oil Intake</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest text-on-surface p-6 rounded-2xl border-3 border-on-surface shadow-brutal-yellow flex flex-col justify-between relative">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="font-headline-lg text-headline-lg text-tertiary">04</span>
+<span class="material-symbols-outlined text-secondary text-2xl" data-icon="inventory_2">inventory_2</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary mb-2">Centrifuge &amp; Nitrogen Seal</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              High-speed centrifugal spin removes excess surface oil before nitrogen flushing in multi-layer foil locks the crunch.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant flex items-center gap-2 text-xs font-label-md text-secondary">
+<span class="material-symbols-outlined text-sm" data-icon="check">check</span>
+<span>6-Month Fresh Seal</span>
+</div>
+</div>
+</div>
+<!-- Farm Origin Visual Banner -->
+<div class="mt-12 bg-surface-container-lowest text-on-surface rounded-2xl border-3 border-on-surface p-4 md:p-6 flex flex-col md:flex-row items-center gap-6">
+<img alt="Fresh green Kerala jackfruit harvest in village orchard" class="w-full md:w-56 h-40 object-cover rounded-xl border-2 border-on-surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYWmVMtAx8nmbMlwbKCLBvnOffgF2H4qTm7pQwOAM2p9x-5YQIgV02wnou7SfNEL_IjI1xDmSCIh2yZICfccNIcJqRacLZnxjw_xy6Z1QvI3vjnZo_aiXAa9emNE3lRcYphmsqgU8kUixWttRlwaJIBDF8R7iV8u18xsrXAbpeZ-18XchDY6mxyaZztzgJSWle_Qm077oWOvVxSQPGJWyfIrrgbPrBAvoCpHTnLrjzU2WeQqOJ20_OLLnJqmIYMU-KJr2HLRBoDyu1"/>
+<div>
+<span class="font-label-sticker text-xs uppercase text-tertiary">Direct Farm Partnership</span>
+<h4 class="font-title-lg text-title-lg text-secondary mt-1">Kerala Jackfruit: The World's Most Sustainable Supercrop</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Jackfruit trees need almost zero synthetic pesticides and withstand extreme heat, providing sustainable income to southern smallholder farming families while preventing tropical food wastage.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. LIFESTYLE STRIP "THE CRUNCHY CHOICE" -->
+<section class="py-16 md:py-24 bg-surface border-b-4 border-on-surface">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-lg">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="bg-tertiary text-on-tertiary font-label-sticker text-xs uppercase px-4 py-1 rounded-full border border-on-surface rotate-2 inline-block mb-3">
+          PERFECT SNACK MOMENTS
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase">
+          BUILT FOR EVERY KIND OF CRUNCH CRAVING
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Lifestyle Card 1 (Late Night) -->
+<div class="bg-surface-container-lowest rounded-2xl border-3 border-on-surface p-4 shadow-brutal-green hover:-translate-y-1 transition-transform relative group">
+<div class="absolute -top-3 -right-2 bg-tertiary text-on-tertiary font-label-sticker text-xs px-3 py-1 rounded-full border border-on-surface rotate-3 z-10">
+            NO POST-BINGE GUILT
+          </div>
+<div class="h-64 rounded-xl overflow-hidden border-2 border-on-surface mb-4">
+<img alt="Young adults sharing snacks during movie night in living room" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqGbOFHPt__zk_BEyED4bshhtYcIpUdXyVy3C6OB_vaILCj2UjorWFTfgMH7z28zmOszgThnv9XOHorpumLRGJaGKN5hk_SNvtABMVasIGQaX4gmiG0VOy5_8ixoP_msBqgRTbUwuph7GCvsR0CT0jQx4cVEQkghU_1caQbKOERvuTAidDJFSBCv3q_fUetPyeyUDzHHeOygPZK7EE5NFBAde64HgI0X3XVQ-siznLlW4hBs474eZHkdFUmdATP_H4z_yn21Xf2iPF"/>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary">Late Night Binge &amp; Movie Snacking</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Replace heavy deep-fried potato bags with pure fiber. Satisfies late evening savory-sweet cravings effortlessly.
+          </p>
+</div>
+<!-- Lifestyle Card 2 (Road Trips) -->
+<div class="bg-surface-container-lowest rounded-2xl border-3 border-on-surface p-4 shadow-brutal-green hover:-translate-y-1 transition-transform relative group">
+<div class="absolute -top-3 -right-2 bg-primary-container text-on-surface font-label-sticker text-xs px-3 py-1 rounded-full border border-on-surface -rotate-3 z-10">
+            TRAVEL READY
+          </div>
+<div class="h-64 rounded-xl overflow-hidden border-2 border-on-surface mb-4 bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A sunlit scenic road trip scene featuring friends laughing in an open-roof vehicle along a tropical coastal highway. Warm golden-hour lighting illuminates vibrant packaging and happy expressions. Styled in bright pop colors with warm cream and yellow accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnrW378ZkieOX2woEdVe4nFBhrLnKTlxqYHvEgKqiYlkZUsl0OU1ZZ4vNyRHW0LyCSnx6L4TK6kDU3iQsvrLSDoGdX7RJ12WRL-wGxRM2k5cECSlJnZMhBiwv4hQ6I-Yb1pc5SmPze83YeKqjWGzXCcVtsfurRG-8OtE66HBZ7KoW84tRLcpNDWRWUWdKoClio8to5F0FJ97KPeoeZh_UT9TCi_Yxyv4ixQlycfXHNDXiPgk6IIKBQJFXF7cws8jEHMT-M5tH5M15i"/>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary">Road Trips &amp; Weekend Getaways</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Resealable zip pouches stay bone-dry and crisp inside glove compartments and backpacks during hill-climb road trips.
+          </p>
+</div>
+<!-- Lifestyle Card 3 (Desk Slump) -->
+<div class="bg-surface-container-lowest rounded-2xl border-3 border-on-surface p-4 shadow-brutal-green hover:-translate-y-1 transition-transform relative group">
+<div class="absolute -top-3 -right-2 bg-secondary text-on-secondary font-label-sticker text-xs px-3 py-1 rounded-full border border-on-surface rotate-2 z-10">
+            CLEAN KEYBOARDS
+          </div>
+<div class="h-64 rounded-xl overflow-hidden border-2 border-on-surface mb-4 bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A modern bright creative design studio desk with a mechanical keyboard, notebook, and a bowl of golden crispy jackfruit chips next to an iced coffee. High key sunny morning illumination with playful yellow accents and botanical green desk plants." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZDwxTCPTn7XHfbdH75L_RDVPTRMnwN5JTatYR3WRJZ6n0FiaZhK4IVkzSYnWuxS2Yby3wvk1KvnvJDNIC2lDW_73JeAMFZIwfmaGd_TWWSAAHa-QH4vCBKGJj3Wk90ngZCBT77ADU8QlILLrHiCM7nm__Er9pI2zwYuwkh-E_tzLeTgZhvtOz5Opflp6hJ-duGXLjBwj_85N_Rrs0CaTl7YHe3Isp6gbFGcadNLLt83Br9eelPCZll8Km_PhgNx08LMqaYEMnXPlj"/>
+</div>
+<h3 class="font-title-lg text-title-lg text-secondary">3 PM Desk Slump Savior</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Zero oily fingers on your mouse or touchpad. Sustained low-GI energy without the sudden sugar drop at work.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. REVIEWS PLACEHOLDER / SOCIAL PROOF -->
+<section class="py-16 md:py-20 bg-surface-container-low border-b-4 border-on-surface" id="reviews">
+<div class="max-w-4xl mx-auto px-margin md:px-margin-md text-center">
+<div class="bg-surface-container-lowest p-8 md:p-12 rounded-3xl border-4 border-on-surface shadow-brutal-green relative">
+<span class="material-symbols-outlined text-primary-container text-5xl mb-2" data-icon="rate_review">rate_review</span>
+<div class="flex justify-center gap-1 text-primary-container mb-3">
+<span class="material-symbols-outlined text-3xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-3xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-3xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-3xl" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-3xl" data-icon="star" data-weight="fill">star</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg uppercase text-secondary">
+          BE THE FIRST TO REVIEW BRIVA'S NEW HARVEST
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto mt-3 mb-8">
+          Freshly batch-crafted from ripe seasonal Kerala pods. Grabbed a bag already? Share your honest crunch rating with snack enthusiasts across India!
+        </p>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-secondary text-on-secondary font-title-md text-title-md px-8 py-3.5 rounded-full border-2 border-on-surface shadow-brutal-sm hover:scale-[1.02] active:translate-x-0.5 active:translate-y-0.5 transition-all" onclick="alert('Review modal: Thank you! Batch review submission is active for verified purchasers.')">
+            Write a Review
+          </button>
+<a class="bg-surface text-secondary font-title-md text-title-md px-8 py-3.5 rounded-full border-2 border-on-surface shadow-brutal-sm hover:bg-surface-container transition-all" href="#buy-box">
+            Taste Before You Rate
+          </a>
+</div>
+<!-- Recent verified quote teaser -->
+<div class="mt-8 pt-6 border-t-2 border-outline-variant text-left bg-surface-container-low p-4 rounded-xl">
+<div class="flex items-center gap-2 mb-1">
+<span class="font-title-md text-sm font-bold text-on-surface">Ananya K., Bangalore</span>
+<span class="bg-secondary-container text-secondary text-[10px] font-bold px-2 py-0.5 rounded-full">VERIFIED ORDER</span>
+</div>
+<p class="font-body-md text-sm text-on-surface italic">
+            "I was skeptical about jackfruit chips being overly sweet or banana-like. These are completely crunchy, light, and shockingly addictive without being oily. Finished two packs in one sitting!"
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. FAQ ACCORDION -->
+<section class="py-16 md:py-24 bg-surface border-b-4 border-on-surface" id="faq">
+<div class="max-w-4xl mx-auto px-margin md:px-margin-md">
+<div class="text-center mb-12">
+<span class="bg-secondary text-on-secondary font-label-sticker text-xs uppercase px-4 py-1 rounded-full border border-on-surface -rotate-1 inline-block mb-3">
+          CLEAR ANSWERS
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-secondary uppercase">
+          FREQUENTLY ASKED QUESTIONS
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Everything you wanted to know about vacuum frying and Kerala jackfruit chips.
+        </p>
+</div>
+<div class="space-y-4">
+<!-- Accordion Item 1 -->
+<div class="border-2 border-on-surface rounded-2xl bg-surface-container-lowest overflow-hidden shadow-brutal-sm">
+<button class="w-full text-left p-5 flex justify-between items-center font-title-lg text-title-lg text-on-surface hover:bg-surface-container-low transition-colors" onclick="toggleFaq('faq-1')">
+<span>Is it really fried? How does vacuum frying work?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" data-icon="expand_more" id="faq-icon-1">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 font-body-md text-body-md text-on-surface-variant border-t border-outline-variant pt-3" id="faq-1">
+            Yes, but with a major scientific twist. Conventional frying happens in open air at 180°C–200°C where snacks soak up oil. In vacuum frying, pressure is dropped drastically inside a sealed vessel so water boils off at ~80°C. Jackfruit cooks without scorching sugars or absorbing excess oil, producing 70% less oil retention!
+          </div>
+</div>
+<!-- Accordion Item 2 -->
+<div class="border-2 border-on-surface rounded-2xl bg-surface-container-lowest overflow-hidden shadow-brutal-sm">
+<button class="w-full text-left p-5 flex justify-between items-center font-title-lg text-title-lg text-on-surface hover:bg-surface-container-low transition-colors" onclick="toggleFaq('faq-2')">
+<span>Does it contain added sugar or artificial sweeteners?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" data-icon="expand_more" id="faq-icon-2">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 font-body-md text-body-md text-on-surface-variant border-t border-outline-variant pt-3" id="faq-2">
+            Absolutely zero added sugar, glucose, or syrups! Kerala jackfruit develops its own rich, honey-caramelized sweetness naturally on the tree. We preserve that genuine fruit profile so you taste 100% natural sugars balanced with a pinch of sea salt.
+          </div>
+</div>
+<!-- Accordion Item 3 -->
+<div class="border-2 border-on-surface rounded-2xl bg-surface-container-lowest overflow-hidden shadow-brutal-sm">
+<button class="w-full text-left p-5 flex justify-between items-center font-title-lg text-title-lg text-on-surface hover:bg-surface-container-low transition-colors" onclick="toggleFaq('faq-3')">
+<span>What is the shelf life and how should I store it?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" data-icon="expand_more" id="faq-icon-3">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 font-body-md text-body-md text-on-surface-variant border-t border-outline-variant pt-3" id="faq-3">
+            Unopened pouches retain pristine crunch for 6 months from the manufacturing date, thanks to multi-layer barrier foil and nitrogen flush packaging. Once opened, simply zip the airtight seal tight and store in a cool, dry spot away from humid moisture.
+          </div>
+</div>
+<!-- Accordion Item 4 -->
+<div class="border-2 border-on-surface rounded-2xl bg-surface-container-lowest overflow-hidden shadow-brutal-sm">
+<button class="w-full text-left p-5 flex justify-between items-center font-title-lg text-title-lg text-on-surface hover:bg-surface-container-low transition-colors" onclick="toggleFaq('faq-4')">
+<span>How fast is shipping across India?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" data-icon="expand_more" id="faq-icon-4">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 font-body-md text-body-md text-on-surface-variant border-t border-outline-variant pt-3" id="faq-4">
+            Orders placed before 2 PM are handed to express air courier partners within 24 hours. Metros (Bangalore, Mumbai, Delhi, Chennai, Hyderabad) receive delivery within 2–3 business days. Tier-2 and regional cities take 3–4 business days. You will receive real-time WhatsApp &amp; SMS tracking updates.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. FINAL HIGH-CONVERTING CTA BAND ON RED-ORANGE (#E2452B) -->
+<section class="py-16 md:py-20 bg-tertiary text-on-tertiary border-b-4 border-on-surface relative overflow-hidden text-center">
+<div class="max-w-5xl mx-auto px-margin md:px-margin-lg relative z-10">
+<div class="inline-block bg-primary-container text-on-surface font-label-sticker text-xs uppercase px-4 py-1 rounded-full border-2 border-on-surface rotate-2 mb-4">
+        FRESH DISPATCH FROM CURRENT BATCH
+      </div>
+<h2 class="font-display-hero md:text-display-hero text-display-hero-mobile uppercase tracking-tight leading-none text-on-tertiary">
+        ONE BITE IS ALL IT TAKES.
+      </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed max-w-xl mx-auto mt-4 mb-8 font-semibold">
+        Elevate your daily snack habit today. Crispy, healthy, and unapologetically full of fruit flavor.
+      </p>
+<div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-secondary text-on-secondary font-headline-md text-headline-md px-10 py-5 rounded-full border-3 border-on-surface shadow-brutal-sm hover:scale-105 active:translate-x-1 active:translate-y-1 transition-all" href="#buy-box">
+<span>Order Now – From ₹150</span>
+<span class="material-symbols-outlined text-2xl" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="mt-8 flex flex-wrap justify-center items-center gap-6 text-xs font-label-md text-tertiary-fixed">
+<span>✓ 100% Real Kerala Fruit</span>
+<span>✦ 70% Less Oil</span>
+<span>✓ 2-4 Days Pan-India Delivery</span>
+</div>
+</div>
+</section>
+<!-- 12. FOOTER (Shared Component Implementation on Forest Green) -->
+<footer class="w-full bg-secondary dark:bg-inverse-surface border-t-4 border-outline dark:border-outline-variant flat no shadows text-secondary-container dark:text-secondary-fixed">
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-lg py-space-xl flex flex-col gap-space-lg">
+<!-- Top Row: Logo & Tagline -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-8 border-b border-on-secondary-fixed-variant">
+<div>
+<span class="font-headline-xl text-headline-xl text-primary-container dark:text-primary-fixed uppercase tracking-wider block">
+            BRIVA
+          </span>
+<p class="font-title-md text-title-md text-on-secondary font-bold mt-1">
+            Real Fruit. Elevated.
+          </p>
+</div>
+<!-- WhatsApp Support Badge & Instagram -->
+<div class="flex flex-wrap items-center gap-3">
+<a class="inline-flex items-center gap-2 bg-surface-container-lowest text-secondary px-4 py-2 rounded-full border-2 border-on-surface text-xs font-title-md font-bold hover:bg-surface-container" href="https://wa.me/" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-base" data-icon="chat">chat</span>
+<span>WhatsApp Support</span>
+</a>
+<a class="inline-flex items-center gap-2 bg-primary-container text-on-surface px-4 py-2 rounded-full border-2 border-on-surface text-xs font-title-md font-bold hover:bg-primary-fixed" href="https://instagram.com" rel="noopener" target="_blank">
+<span>@brivasnacks</span>
+</a>
+</div>
+</div>
+<!-- About Statement & Multi-Column Links -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 py-4">
+<div class="md:col-span-5">
+<h4 class="font-title-md text-on-secondary mb-2">Our Promise</h4>
+<p class="font-body-md text-secondary-fixed-dim leading-relaxed">
+            BRIVA is a premium snacking brand built around one simple idea: great snacks don't have to be ordinary. We bridge Kerala's agricultural abundance with modern vacuum culinary technology.
+          </p>
+<div class="mt-4 text-xs font-label-md text-secondary-container">
+            Direct Support: <a class="underline hover:text-primary-fixed" href="mailto:brivajackfruitchips@gmail.com">brivajackfruitchips@gmail.com</a>
+</div>
+</div>
+<div class="md:col-span-7 flex flex-wrap gap-y-4 gap-x-8">
+<div class="flex flex-col gap-2 min-w-[140px]">
+<span class="font-label-lg text-primary-container uppercase text-xs">Customer Care</span>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#buy-box">Shipping Policy</a>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#buy-box">Return &amp; Refund</a>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#buy-box">Track Order</a>
+</div>
+<div class="flex flex-col gap-2 min-w-[140px]">
+<span class="font-label-lg text-primary-container uppercase text-xs">Explore</span>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#why-briva">Why Jackfruit</a>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#how-its-made">How It's Made</a>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#faq">Wholesale / B2B Inquiry</a>
+</div>
+<div class="flex flex-col gap-2 min-w-[140px]">
+<span class="font-label-lg text-primary-container uppercase text-xs">Legal</span>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-secondary-fixed-dim hover:text-primary-fixed transition-colors" href="#">Nutrition Facts</a>
+</div>
+</div>
+</div>
+<!-- Bottom Copyright & Security -->
+<div class="pt-6 border-t border-on-secondary-fixed-variant flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-body-md text-secondary-fixed-dim">
+<p>© 2025 BRIVA Foods Inc. Vacuum Fried Jackfruit Perfection. All rights reserved.</p>
+<div class="flex items-center gap-4">
+<span>Made with ❤️ in Kerala, India</span>
+<span>✦ FSSAI Certified Facility</span>
+</div>
+</div>
+</div>
+</footer>
+<!-- Interactive Logic (Thumbnails, Bundle Switcher, Qty Stepper, Pincode Checker, FAQ) -->
+<script>
+    let currentQty = 1;
+    let currentBundlePrice = 150;
+    let currentBundleMrp = 240;
+
+    function changeGalleryImage(src, btn) {
+      const mainImg = document.getElementById('main-product-img');
+      mainImg.src = src;
+      
+      document.querySelectorAll('.thumbnail-btn').forEach(b => {
+        b.classList.remove('border-secondary', 'ring-2', 'ring-secondary');
+        b.classList.add('border-outline-variant');
+      });
+      btn.classList.remove('border-outline-variant');
+      btn.classList.add('border-secondary', 'ring-2', 'ring-secondary');
+    }
+
+    function updateBundle(packs, price, mrp) {
+      currentBundlePrice = price;
+      currentBundleMrp = mrp;
+      calculateTotals();
+    }
+
+    function adjustQty(delta) {
+      currentQty = Math.max(1, currentQty + delta);
+      document.getElementById('qty-val').innerText = currentQty;
+      calculateTotals();
+    }
+
+    function calculateTotals() {
+      const totalPayable = currentBundlePrice * currentQty;
+      const totalMrp = currentBundleMrp * currentQty;
+      
+      document.getElementById('price-display').innerText = `₹${totalPayable}`;
+      document.getElementById('mrp-display').innerText = `₹${totalMrp}`;
+
+      // Free shipping progress logic (Threshold ₹300)
+      const progressBar = document.getElementById('shipping-bar');
+      const promptText = document.getElementById('shipping-prompt');
+      const percentText = document.getElementById('shipping-percent');
+      
+      if (totalPayable >= 300) {
+        progressBar.style.width = '100%';
+        progressBar.classList.remove('bg-primary-container');
+        progressBar.classList.add('bg-secondary-container');
+        promptText.innerHTML = '<strong>🎉 FREE EXPRESS SHIPPING UNLOCKED!</strong>';
+        percentText.innerText = '100% unlocked';
+      } else {
+        const remaining = 300 - totalPayable;
+        const pct = Math.min(100, Math.round((totalPayable / 300) * 100));
+        progressBar.style.width = `${pct}%`;
+        progressBar.classList.add('bg-primary-container');
+        progressBar.classList.remove('bg-secondary-container');
+        promptText.innerHTML = `Add ₹${remaining} more for <strong>FREE shipping</strong>`;
+        percentText.innerText = `${pct}% unlocked`;
+      }
+    }
+
+    function addToCartTrigger() {
+      const counter = document.getElementById('cart-counter');
+      const existing = parseInt(counter.innerText) || 0;
+      counter.innerText = existing + currentQty;
+      counter.classList.add('scale-125');
+      setTimeout(() => counter.classList.remove('scale-125'), 200);
+
+      alert(`Added ${currentQty} pack(s) to your cart! You can review details anytime.`);
+    }
+
+    function directCheckoutTrigger() {
+      alert(`Proceeding to Instant Checkout for ₹${currentBundlePrice * currentQty}. Thank you for choosing BRIVA!`);
+    }
+
+    function checkPincode() {
+      const pin = document.getElementById('pincode-input').value.trim();
+      const res = document.getElementById('pincode-result');
+      if (pin.length === 6 && /^\d+$/.test(pin)) {
+        res.innerHTML = `
+          <span class="material-symbols-outlined text-secondary text-sm" data-icon="check_circle" data-weight="fill">check_circle</span>
+          <span class="text-secondary font-bold">Pin ${pin} is serviceable! Express delivery by courier in 2–3 days.</span>
+        `;
+      } else {
+        res.innerHTML = `
+          <span class="material-symbols-outlined text-tertiary text-sm" data-icon="error">error</span>
+          <span class="text-tertiary font-bold">Please enter a valid 6-digit Indian Postal Code.</span>
+        `;
+      }
+    }
+
+    function toggleFaq(id) {
+      const el = document.getElementById(id);
+      const isHidden = el.classList.contains('hidden');
+      const icon = document.getElementById(`faq-icon-${id.split('-')[1]}`);
+      
+      if (isHidden) {
+        el.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        el.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+  </script>
+</body></html>
