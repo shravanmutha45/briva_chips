@@ -51,14 +51,14 @@ export function WhatsInside() {
             <Feature key={f.label} {...f} side="left" />
           ))}
         </ul>
-        <Reveal className="order-1 mx-auto w-full max-w-[320px] md:order-2">
+        <Reveal className="order-1 mx-auto w-full max-w-[360px] md:order-2">
           <div className="overflow-hidden rounded-[28px] bg-white shadow-high">
             <Image
-              src="/images/hero-pouch.jpg"
-              alt="Briva pouch with chips"
-              width={512}
-              height={512}
-              className="aspect-square w-full object-cover"
+              src="/images/whats-inside.jpg"
+              alt="What's inside every pack of Briva jackfruit chips"
+              width={794}
+              height={1024}
+              className="h-auto w-full object-contain"
             />
           </div>
         </Reveal>

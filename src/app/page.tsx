@@ -34,10 +34,10 @@ export default function Home() {
         <Nav />
         <main>
           <Hero />
-          <WhyChoose />
           <BuyBox />
           <WhatsInside />
           <Process />
+          <WhyChoose />
           <About />
           <Faq />
           <FinalCta />

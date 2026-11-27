@@ -30,11 +30,17 @@ export function Hero() {
               <br />
               Stop eating oil. Start eating better.
             </p>
-            <div className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-6">
-              <a href="#shop" className="btn-dark px-8 py-4 text-base">
+            <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-6">
+              <a href="#shop" className="btn-dark shrink-0 px-8 py-4 text-base">
                 Buy now <ArrowRight className="size-4" />
               </a>
-              <p className="text-sm text-charcoal/85">No added sugar • No preservatives • Zero trans fat</p>
+              <p className="font-display text-base font-bold text-charcoal sm:text-lg md:text-xl">
+                <span className="whitespace-nowrap">No added sugar</span>
+                <span className="mx-2 text-charcoal/40">•</span>
+                <span className="whitespace-nowrap">No preservatives</span>
+                <span className="mx-2 text-charcoal/40">•</span>
+                <span className="whitespace-nowrap">Zero trans fat</span>
+              </p>
             </div>
           </div>
 
@@ -43,10 +49,10 @@ export function Hero() {
               <Image
                 src="/images/hero-pouch.jpg"
                 alt="Briva vacuum fried jackfruit chips pouch beside a bowl of chips"
-                width={512}
-                height={512}
+                width={768}
+                height={1024}
                 priority
-                className="aspect-square w-full object-cover"
+                className="aspect-[3/4] w-full object-cover"
               />
             </div>
           </div>

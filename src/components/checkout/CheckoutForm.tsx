@@ -369,7 +369,7 @@ export function CheckoutForm() {
           </div>
         </dl>
         <p className="mt-6 border-t border-border pt-4 text-center text-xs text-muted">
-          Fast delivery across India · Easy returns
+          Fast delivery across India · 100% Genuine &amp; Fresh
         </p>
       </aside>
     </form>

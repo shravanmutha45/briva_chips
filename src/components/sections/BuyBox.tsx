@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { Check, Lock, RefreshCw, Truck, Zap } from "lucide-react";
+import { Check, Lock, Truck, Zap } from "lucide-react";
 import { useCart } from "@/components/cart/CartProvider";
 import { QtyStepper } from "@/components/ui/QtyStepper";
 import { formatINR, PACK_LIST, PackId, PACKS, PRODUCT } from "@/lib/pricing";
@@ -176,15 +176,12 @@ export function BuyBox() {
 
           <hr className="my-7 border-border" />
 
-          <ul className="grid grid-cols-3 gap-4 text-xs leading-snug text-charcoal/80">
+          <ul className="grid grid-cols-2 gap-4 text-xs leading-snug text-charcoal/80">
             <li className="flex items-start gap-2">
               <Zap className="size-4 shrink-0" /> Fast delivery across India
             </li>
             <li className="flex items-start gap-2">
               <Lock className="size-4 shrink-0" /> Secure payments – UPI, cards, netbanking
-            </li>
-            <li className="flex items-start gap-2">
-              <RefreshCw className="size-4 shrink-0" /> Easy returns
             </li>
           </ul>
         </div>
